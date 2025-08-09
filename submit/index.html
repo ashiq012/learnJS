@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: grey;
+            color: rgba(128, 128, 128, 0.911);
+            font-family: Arial, sans-serif;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        .card{
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+            width: min-content;
+            height: min-content;
+            overflow: hidden;
+            border-radius:20px;
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            text-align: left;
+            
+        }
+        h1 ,h4{
+            line-height: -1rem;
+            margin: 0;
+            padding: 0;
+            text-transform: capitalize;
+            text-align: left;
+            font-size: 20px;
+            font-weight: 10px;
+        }
+        p{
+            margin-top: 5px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <form action="">
+        <input type="text" placeholder="name" >
+        <input type="text" placeholder="email">
+        <input name="message" placeholder="message" >
+        <input type="submit">
+    </form>
+    </div>
+   <script src="./script.js"></script> 
+</body>
+</html>
